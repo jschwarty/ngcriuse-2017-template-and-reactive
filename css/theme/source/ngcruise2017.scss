@@ -43,18 +43,10 @@ section.has-light-background {
   }
 }
 
+
 /*********************************************
  * reveal-code-focus plugin
  *********************************************/
-.line {
-  display: block;
-  //color: #ebebeb !important;
-  font-weight: bold !important;
-}
-
-.line.focus {
-  background: #6b778e;
-}
 
 .reveal .slides section .fragment.current-only {
   opacity: 1;
@@ -70,10 +62,17 @@ section.has-light-background {
   width: 100% !important;
   code {
     padding: 0.4em 0.6em !important;
-    .line {
-      line-height: 1.2em;
-    }
     overflow: visible !important;
+    max-height: none !important;
+    .line {
+      line-height: 1.4em;
+      display: block;
+      //color: #ebebeb !important;
+      font-weight: bold !important;
+      &.focus {
+        background: #6b778e;
+      }
+    }
   }
   h4 {
     margin-bottom: -0.5em;
@@ -85,6 +84,8 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
 
 .talk-title {
   font-family: 'Oleo Script Swash Caps', cursive !important;

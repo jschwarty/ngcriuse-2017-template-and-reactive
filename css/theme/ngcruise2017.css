@@ -11,13 +11,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /*********************************************
  * reveal-code-focus plugin
  *********************************************/
-.line {
-  display: block;
-  font-weight: bold !important; }
-
-.line.focus {
-  background: #6b778e; }
-
 .reveal .slides section .fragment.current-only {
   opacity: 1;
   visibility: visible;
@@ -30,9 +23,14 @@ section.has-light-background, section.has-light-background h1, section.has-light
   width: 100% !important; }
   [data-markdown] code {
     padding: 0.4em 0.6em !important;
-    overflow: visible !important; }
+    overflow: visible !important;
+    max-height: none !important; }
     [data-markdown] code .line {
-      line-height: 1.2em; }
+      line-height: 1.4em;
+      display: block;
+      font-weight: bold !important; }
+      [data-markdown] code .line.focus {
+        background: #6b778e; }
   [data-markdown] h4 {
     margin-bottom: -0.5em;
     text-transform: none !important; }
