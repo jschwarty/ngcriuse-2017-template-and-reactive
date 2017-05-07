@@ -9,6 +9,35 @@ section.has-light-background, section.has-light-background h1, section.has-light
   color: #222; }
 
 /*********************************************
+ * reveal-code-focus plugin
+ *********************************************/
+.line {
+  display: block;
+  font-weight: bold !important; }
+
+.line.focus {
+  background: #6b778e; }
+
+.reveal .slides section .fragment.current-only {
+  opacity: 1;
+  visibility: visible;
+  display: none; }
+
+.reveal .slides section .fragment.current-only.current-fragment {
+  display: block; }
+
+[data-markdown] {
+  width: 100% !important; }
+  [data-markdown] code {
+    padding: 0.4em 0.6em !important;
+    overflow: visible !important; }
+    [data-markdown] code .line {
+      line-height: 1.2em; }
+  [data-markdown] h4 {
+    margin-bottom: -0.5em;
+    text-transform: none !important; }
+
+/*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
