@@ -75,7 +75,9 @@
                 }
             },
 //            { src: 'plugin/zoom-js/zoom.js', async: true },
-            {src: 'plugin/highlight/highlight.js' },
+            {src: 'plugin/highlight/highlight.js', callback: function() {
+                hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl ';
+            } },
             {src: 'plugin/reveal-code-focus/reveal-code-focus.js', callback: function () { RevealCodeFocus(); }}
         ]
     });
