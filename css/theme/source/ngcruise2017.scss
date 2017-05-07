@@ -13,7 +13,7 @@
 
 // Include theme-specific fonts
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #222;
@@ -47,3 +47,8 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.talk-title {
+  font-family: 'Oleo Script Swash Caps', cursive !important;
+  text-transform: none !important;
+}
