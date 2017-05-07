@@ -85,7 +85,10 @@ section.has-light-background {
 @import "../template/theme";
 // ---------------------------------------------
 
-
+.code-compare {
+  display: flex;
+  justify-content: space-around;
+}
 
 .talk-title {
   font-family: 'Oleo Script Swash Caps', cursive !important;

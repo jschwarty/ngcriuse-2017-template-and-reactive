@@ -7,7 +7,6 @@ constructor(
   private formBuilder: FormBuilder) {
 
   this.form = this.formBuilder.group({
-    name: '',
     nickname: ''
   });
 }
