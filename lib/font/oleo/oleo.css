@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('Oleo.woff2') format('woff'),
+         url('OleoScriptSwashCaps-Regular.ttf') format('truetype');
+    font-style: italic;
+}

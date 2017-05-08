@@ -12,8 +12,8 @@
 
 
 // Include theme-specific fonts
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+@import url(../../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../../../lib/font/oleo/oleo.css);
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #222;
