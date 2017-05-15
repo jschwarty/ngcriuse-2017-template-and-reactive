@@ -322,7 +322,14 @@ body {
 .code-compare {
   display: flex;
   justify-content: space-around; }
+  .code-compare h4 {
+    font-family: 'Oleo Script Swash Caps', cursive !important;
+    text-transform: none !important; }
 
 .talk-title {
+  font-family: 'Oleo Script Swash Caps', cursive !important;
+  text-transform: none !important; }
+
+.my-info h4, .my-info h5 {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important; }

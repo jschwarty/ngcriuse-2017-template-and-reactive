@@ -1,6 +1,8 @@
 #### Reactive
 ``` typescript
-import { ReactiveFormsModule } from '@angular/forms';
+import {
+  ReactiveFormsModule
+} from '@angular/forms';
 
 @NgModule({
   imports: [
