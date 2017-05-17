@@ -10,3 +10,5 @@ export class FormComponent {
   }
 }
 ```
+<p class="fragment" data-fragment-index="0" data-code-focus="3"></p>
+<p class="fragment" data-fragment-index="1" data-code-focus="7"></p>
