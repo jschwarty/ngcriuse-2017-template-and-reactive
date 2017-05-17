@@ -1,7 +1,7 @@
 #### Template
 ```html
 <input type="text" name="nickname"
-  [(ngForm)]="model.nickname"
+  [(ngModel)]="model.nickname"
   required
   pattern="^[a-zA-Z0-9]*$"
   #nickname="ngModel">
