@@ -1,5 +1,5 @@
 #### Template
 ```html
-<input type="text" name="nickname"
-  ngForm>
+<input type="text" 
+  ngModel name="nickname">
 ```
