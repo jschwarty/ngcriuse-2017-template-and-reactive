@@ -33,7 +33,9 @@
         <section data-external="slides/quotes-about-conceptions.html"></section>
         <section data-external="slides/why-two.html"></section>
         <section data-external="slides/make-it-simple.html"></section>
-        <section data-external="slides/package-json.html"></section>
+        <section>
+            <div class="code-compare" data-markdown="slides/md/package-json.md"></div>
+        </section>
         <section data-external="slides/main-module.html"></section>
         <section data-external="slides/component-1.html"></section>
         <section data-external="slides/component-2.html"></section>
@@ -87,7 +89,7 @@
                     return !!document.querySelector('[data-markdown]');
                 }
             },
-//            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
             {src: 'plugin/highlight/highlight.js', callback: function() {
                 hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl ';
             } },
