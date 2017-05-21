@@ -56,6 +56,7 @@
         <section data-external="slides/ngmodule-source.html"></section>
         <section data-external="slides/shared-module.html"></section>
         <section data-external="slides/custom-validator.html"></section>
+        <section data-external="slides/component-wrapper.html"></section>
 
     </div>
 </div>
@@ -97,7 +98,7 @@
             },
             { src: 'plugin/zoom-js/zoom.js', async: true },
             {src: 'plugin/highlight/highlight.js', callback: function() {
-                hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl REACTIVE_DRIVEN_DIRECTIVES TEMPLATE_DRIVEN_DIRECTIVES SHARED_FORM_DIRECTIVES NG_VALIDATORS AbstractControl ValidationErrors ';
+                hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl REACTIVE_DRIVEN_DIRECTIVES TEMPLATE_DRIVEN_DIRECTIVES SHARED_FORM_DIRECTIVES NG_VALIDATORS AbstractControl ValidationErrors NgControl ';
             } },
             {src: 'plugin/reveal-code-focus/reveal-code-focus.js', callback: function () { RevealCodeFocus(); }}
         ]
