@@ -51,6 +51,10 @@
         <section data-external="slides/decision-maker-3.html"></section>
         <section data-external="slides/markup-7.html"></section>
         <section data-external="slides/markup-8.html"></section>
+        <section data-external="slides/differences.html"></section>
+
+        <section data-external="slides/ngmodule-source.html"></section>
+        <section data-external="slides/shared-module.html"></section>
 
     </div>
 </div>
@@ -92,7 +96,7 @@
             },
             { src: 'plugin/zoom-js/zoom.js', async: true },
             {src: 'plugin/highlight/highlight.js', callback: function() {
-                hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl ';
+                hljs.getLanguage('typescript').k.built_in += ' FormGroup FormControl REACTIVE_DRIVEN_DIRECTIVES TEMPLATE_DRIVEN_DIRECTIVES SHARED_FORM_DIRECTIVES ';
             } },
             {src: 'plugin/reveal-code-focus/reveal-code-focus.js', callback: function () { RevealCodeFocus(); }}
         ]
