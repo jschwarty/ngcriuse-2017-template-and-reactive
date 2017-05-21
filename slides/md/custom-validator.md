@@ -16,7 +16,6 @@ export class NickUniqueDirective implements Validator {
 ```html
 <!-- Template approach -->
 <input type="text" ngModel name="nickname" appNickUnique>
-
 <!-- Reactive approach -->
 <input type="text" formControlName="nickname" appNickUnique>
 ```

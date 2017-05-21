@@ -1,4 +1,4 @@
-#### Form Field Wrapper
+#### Form Field Wrapper Component
 ```html
 <!-- Template approach -->
 <app-name-field><input type="text" ngModel name="nickname"></app-name-field>
