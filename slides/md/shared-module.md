@@ -1,3 +1,4 @@
+#### InternalFormsSharedModule
 ```typescript
 SHARED_FORM_DIRECTIVES
   NgNoValidate, NgSelectOption, NgSelectMultipleOption,
@@ -8,10 +9,7 @@ SHARED_FORM_DIRECTIVES
   MinValidator, MinLengthValidator, MaxValidator, MaxLengthValidator, 
   PatternValidator, CheckboxRequiredValidator, EmailValidator
   
-/**
- * Internal module used for sharing directives 
- * between FormsModule and ReactiveFormsModule
- */
+/* Shared between FormsModule and ReactiveFormsModule */
 @NgModule({
   declarations: SHARED_FORM_DIRECTIVES,
   exports: SHARED_FORM_DIRECTIVES,
