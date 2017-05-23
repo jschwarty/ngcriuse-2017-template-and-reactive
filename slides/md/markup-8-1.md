@@ -7,7 +7,7 @@
   #nickname="ngModel">
   
 <div *ngIf="nickname
-              .hasError('required')">
-  Nickname is required
+              .hasError('pattern')">
+  Nickname must be alphanumeric
 </div>
 ```

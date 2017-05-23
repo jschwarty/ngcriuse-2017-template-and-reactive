@@ -7,7 +7,7 @@
   
   
 <div *ngIf="form.get('nickname')
-              .hasError('required')">
-  Nickname is required
+              .hasError('pattern')">
+  Nickname must be alphanumeric
 </div>
 ```
