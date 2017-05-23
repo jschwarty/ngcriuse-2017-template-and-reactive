@@ -5,6 +5,7 @@
  */
 @import url(../../../lib/font/source-sans-pro/source-sans-pro.css);
 @import url(../../../lib/font/oleo/oleo.css);
+@import url(../../../lib/font/roboto/roboto.css);
 @import url(../../../lib/font/ringbearer/ringbearer.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
@@ -40,11 +41,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #0583c9;
+  background: -moz-radial-gradient(center, circle cover, #5bc0ed 0%, #0583c9 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #5bc0ed), color-stop(100%, #0583c9));
+  background: -webkit-radial-gradient(center, circle cover, #5bc0ed 0%, #0583c9 100%);
+  background: -o-radial-gradient(center, circle cover, #5bc0ed 0%, #0583c9 100%);
+  background: -ms-radial-gradient(center, circle cover, #5bc0ed 0%, #0583c9 100%);
+  background: radial-gradient(center, circle cover, #5bc0ed 0%, #0583c9 100%);
+  background-color: #5bc0ed; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -75,7 +82,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -334,6 +341,16 @@ body {
 .talk-title {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important; }
+
+.my-info .bio {
+  display: flex;
+  flex-direction: row; }
+
+.my-info .avatar-coin {
+  border: 6px solid #0583c9 !important;
+  border-radius: 50% !important;
+  width: 6em;
+  height: 6em; }
 
 .my-info h4, .my-info h5 {
   font-family: 'Oleo Script Swash Caps', cursive !important;
