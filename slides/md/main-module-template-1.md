@@ -1,12 +1,9 @@
 #### Template
 ``` typescript
-import { 
-  FormsModule 
-} from '@angular/forms';
+import { FormsModule } 
+    from '@angular/forms';
 
 @NgModule({
-  imports: [
-    FormsModule
-  ]
+  imports: [ FormsModule ]
 })
 ```

@@ -4,3 +4,8 @@
   . . .
 </form>
 ```
+<br/>
+<strong>NgForm Directive</strong>
+```typescript
+exportAs: 'ngForm'
+```

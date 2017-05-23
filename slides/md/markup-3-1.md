@@ -5,3 +5,8 @@
   . . .
 </form>
 ```
+<br/>
+<strong>NgForm Directive</strong>
+```typescript
+outputs: ['ngSubmit']
+```
