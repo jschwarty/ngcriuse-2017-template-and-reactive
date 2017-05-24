@@ -80,16 +80,22 @@ section.has-light-background {
     }
   }
   h4 {
-    margin-bottom: -0.5em;
+    margin-bottom: -0.2em !important;
     text-transform: none !important;
-    color: #fff !important;
   }
 }
-
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+blockquote {
+  text-align: left;
+  background: none !important;
+  box-shadow: none !important;
+  width: 90% !important;
+}
 
 .palm-1, .palm-2 {
   position: absolute;
@@ -104,16 +110,15 @@ section.has-light-background {
   left: 95vw;
 }
 
-.miami {
-  font-family: 'Oleo Script Swash Caps', cursive !important;
-  text-transform: none !important;
-  color: #fff;
-}
 .template {
   color: #f5e2a9 !important;
 }
 .reactive {
   color: #175679 !important;
+}
+.miami {
+  font-family: 'Oleo Script Swash Caps', cursive !important;
+  text-transform: none !important;
 }
 
 .code-compare {
@@ -122,22 +127,13 @@ section.has-light-background {
   h4 {
     font-family: 'Oleo Script Swash Caps', cursive !important;
     text-transform: none !important;
+    font-size: 1.2em;
   }
 }
 
 .talk-title {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important;
-}
-
-.quotes {
-  width: auto;
-  blockquote {
-    text-align: left;
-    background: none;
-    box-shadow: none;
-    width: 90%;
-  }
 }
 
 .lotr {
