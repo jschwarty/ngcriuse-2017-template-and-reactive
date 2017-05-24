@@ -108,12 +108,12 @@ section.has-light-background {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important;
   color: #fff;
-  &.template {
-    color: #f5e2a9 !important;
-  }
-  &.reactive {
-    color: #175679 !important;
-  }
+}
+.template {
+  color: #f5e2a9 !important;
+}
+.reactive {
+  color: #175679 !important;
 }
 
 .code-compare {
@@ -130,6 +130,15 @@ section.has-light-background {
   text-transform: none !important;
 }
 
+.quotes {
+  width: auto;
+  blockquote {
+    text-align: left;
+    background: none;
+    box-shadow: none;
+    width: 90%;
+  }
+}
 
 .lotr {
   font-family: 'Ringbearer Medium', serif !important;
