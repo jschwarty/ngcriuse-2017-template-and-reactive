@@ -82,6 +82,7 @@ section.has-light-background {
   h4 {
     margin-bottom: -0.5em;
     text-transform: none !important;
+    color: #fff !important;
   }
 }
 
@@ -90,9 +91,29 @@ section.has-light-background {
 @import "../template/theme";
 // ---------------------------------------------
 
+.palm-1, .palm-2 {
+  position: absolute;
+  top: 91.6vh;
+}
+.palm-1 {
+  left: 1vw;
+  transform: rotate(-26deg);
+}
+.palm-2 {
+  transform: rotate(26deg);
+  left: 95vw;
+}
+
 .miami {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important;
+  color: #fff;
+  &.template {
+    color: #f5e2a9;
+  }
+  &.reactive {
+    color: #175679;
+  }
 }
 
 .code-compare {

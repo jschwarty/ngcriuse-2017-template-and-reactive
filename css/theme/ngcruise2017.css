@@ -35,7 +35,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
         background: #6b778e; }
   [data-markdown] h4 {
     margin-bottom: -0.5em;
-    text-transform: none !important; }
+    text-transform: none !important;
+    color: #fff !important; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -327,9 +328,26 @@ body {
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+.palm-1, .palm-2 {
+  position: absolute;
+  top: 91.6vh; }
+
+.palm-1 {
+  left: 1vw;
+  transform: rotate(-26deg); }
+
+.palm-2 {
+  transform: rotate(26deg);
+  left: 95vw; }
+
 .miami {
   font-family: 'Oleo Script Swash Caps', cursive !important;
-  text-transform: none !important; }
+  text-transform: none !important;
+  color: #fff; }
+  .miami.template {
+    color: #f5e2a9; }
+  .miami.reactive {
+    color: #175679; }
 
 .code-compare {
   display: flex;
