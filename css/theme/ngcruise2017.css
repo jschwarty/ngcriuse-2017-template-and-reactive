@@ -371,3 +371,43 @@ blockquote {
   font-family: 'Ringbearer Medium', serif !important;
   text-transform: none !important;
   color: #deb270 !important; }
+
+.decision-box {
+  background-color: #5bc0ed !important;
+  width: 23em;
+  height: 10em;
+  border-radius: 1.7em;
+  border: 8px solid #0583c9 !important;
+  left: 3.4em;
+  position: relative; }
+  .decision-box img {
+    border: 0 !important;
+    background: none !important;
+    box-shadow: none !important; }
+  .decision-box .shield {
+    position: absolute;
+    left: 9.9em;
+    top: -2.2em;
+    width: 3em; }
+  .decision-box .title {
+    font-size: 2em;
+    margin-top: .2em; }
+  .decision-box .decision-maker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .decision-box .decision-maker .miami {
+      width: 5em; }
+    .decision-box .decision-maker .reason {
+      font-size: .8em;
+      margin-top: .2em; }
+  .decision-box .crab {
+    position: absolute;
+    left: 0.4em;
+    top: 8em;
+    transform: rotate(24deg); }
+  .decision-box .starfish {
+    position: absolute;
+    left: 21.1em;
+    top: 7.8em;
+    transform: rotate(-39deg); }
