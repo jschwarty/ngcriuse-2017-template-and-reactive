@@ -360,20 +360,6 @@ body {
   font-family: 'Oleo Script Swash Caps', cursive !important;
   text-transform: none !important; }
 
-.my-info .bio {
-  display: flex;
-  flex-direction: row; }
-
-.my-info .avatar-coin {
-  border: 6px solid #0583c9 !important;
-  border-radius: 50% !important;
-  width: 6em;
-  height: 6em; }
-
-.my-info h4, .my-info h5 {
-  font-family: 'Oleo Script Swash Caps', cursive !important;
-  text-transform: none !important; }
-
 .lotr {
   font-family: 'Ringbearer Medium', serif !important;
   text-transform: none !important;
