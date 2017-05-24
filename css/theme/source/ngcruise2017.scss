@@ -109,10 +109,10 @@ section.has-light-background {
   text-transform: none !important;
   color: #fff;
   &.template {
-    color: #f5e2a9;
+    color: #f5e2a9 !important;
   }
   &.reactive {
-    color: #175679;
+    color: #175679 !important;
   }
 }
 

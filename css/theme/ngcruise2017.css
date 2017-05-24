@@ -345,9 +345,9 @@ body {
   text-transform: none !important;
   color: #fff; }
   .miami.template {
-    color: #f5e2a9; }
+    color: #f5e2a9 !important; }
   .miami.reactive {
-    color: #175679; }
+    color: #175679 !important; }
 
 .code-compare {
   display: flex;
