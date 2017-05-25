@@ -370,7 +370,8 @@ blockquote {
 .lotr {
   font-family: 'Ringbearer Medium', serif !important;
   text-transform: none !important;
-  color: #deb270 !important; }
+  color: #deb270 !important;
+  font-weight: normal !important; }
 
 .decision-box {
   background-color: #5bc0ed !important;
