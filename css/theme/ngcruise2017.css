@@ -395,12 +395,26 @@ blockquote {
   .decision-box .decision-maker {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    width: 24em;
+    text-align: left; }
     .decision-box .decision-maker .miami {
       width: 5em; }
     .decision-box .decision-maker .reason {
       font-size: .8em;
-      margin-top: .2em; }
+      margin-top: .2em;
+      width: 19em; }
+      .decision-box .decision-maker .reason mark {
+        background-color: #aed77f !important; }
+      .decision-box .decision-maker .reason .reason-plus {
+        font-weight: bold;
+        font-style: italic; }
+        .decision-box .decision-maker .reason .reason-plus object {
+          position: absolute;
+          width: 2em;
+          transform: rotate(-51deg);
+          left: 6.3em;
+          top: 5.7em; }
   .decision-box .crab {
     position: absolute;
     left: 0.4em;

@@ -169,12 +169,29 @@ blockquote {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 24em;
+    text-align: left;
     .miami {
       width: 5em;
     }
     .reason {
       font-size: .8em;
       margin-top:.2em;
+      width: 19em;
+      mark {
+        background-color: #aed77f !important;
+      }
+      .reason-plus {
+        font-weight: bold;
+        font-style: italic;
+        object {
+          position: absolute;
+          width: 2em;
+          transform: rotate(-51deg);
+          left: 6.3em;
+          top: 5.7em;
+        }
+      }
     }
   }
   .crab {

@@ -1,0 +1,7 @@
+<?xml-stylesheet type="text/css" href="arrow.css" ?>
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="arrow-icon"
+        viewBox="0 0 26.568 20.074">
+    <path d="M26.568,20.074c0,0-2.952-14.367-15.904-14.367V0L0,9.528l10.664,9.876v-6.433 C17.694,12.972,22.902,13.595,26.568,20.074z"></path>
+</svg>
