@@ -425,3 +425,9 @@ blockquote {
     left: 21.1em;
     top: 7.8em;
     transform: rotate(-39deg); }
+
+.code-slide {
+  display: flex !important;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh; }
