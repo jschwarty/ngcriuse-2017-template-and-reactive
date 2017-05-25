@@ -3,7 +3,7 @@
 <input type="text" name="nickname"
   ngModel="Schwarty">
 ```
-<p>or</p>
+<h4 class="miami">or</h4>
 ```html
 <input type="text" name="nickname"
   [ngModel]="model.nickname">

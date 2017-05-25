@@ -5,8 +5,7 @@
   . . .
 </form>
 ```
-<br/>
-<strong>FormGroup Directive</strong>
+<h4 class="miami">FormGroup Directive</h4>
 ```typescript
 @Output() ngSubmit = new EventEmitter();
 ```

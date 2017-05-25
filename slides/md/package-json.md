@@ -1,4 +1,4 @@
-#### <span class="miami template">Template</span> and <span class="miami reactive">Reactive</span>
+<h4 class="miami"><span class="template">Template</span> and <span class="reactive">Reactive</h4>
 ```json
 "dependencies": {
   . . .

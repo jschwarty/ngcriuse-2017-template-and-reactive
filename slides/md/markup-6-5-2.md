@@ -4,7 +4,7 @@
   . . .
 </div>
 ```
-<p>or</p>
+<h4 class="miami">or</h4>
 ```html
 <div [formGroup]="form.get('address')">
   . . .

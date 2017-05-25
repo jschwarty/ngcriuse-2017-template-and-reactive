@@ -1,4 +1,4 @@
-#### Custom Validator Directive
+<h4 class="miami">Custom Validator Directive</h4>
 ```typescript
 @Directive({
   selector: `[appNickUnique][ngModel], 

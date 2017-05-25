@@ -1,4 +1,4 @@
-#### Custom Form Component
+<h4 class="miami">Custom Form Component</h4>
 ```typescript
 @Component({
   selector: 'app-color',

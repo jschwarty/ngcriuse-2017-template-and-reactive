@@ -4,7 +4,7 @@ this.form = this.formBuilder.group({
   nickname: 'Schwarty'
 });
 ```
-<p>or</p>
+<h4 class="miami">or</h4>
 ```html
 <input type="text"
   formControlName="nickname"
