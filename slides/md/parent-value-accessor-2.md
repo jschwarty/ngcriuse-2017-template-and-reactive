@@ -1,10 +1,10 @@
 <h4 class="miami">Parent of Custom Form Component (with validator)</h4>
 ```html
 <!-- Template approach -->
-<app-color ngModel name="color" pattern="^[a-zA-Z0-9]*$"></app-color>
+<app-color ngModel name="color" pattern="^[a-zA-Z]*$"></app-color>
 
 <!-- Reactive approach -->
-<app-color formControlName="color" pattern="^[a-zA-Z0-9]*$"></app-color>
+<app-color formControlName="color" pattern="^[a-zA-Z]*$"></app-color>
 ```
 
 <h4 class="miami">Custom Form Component (with NgControl)</h4>
